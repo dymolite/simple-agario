@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+}
+.input {
+    padding: 2rem;
+}
+
+.btn {
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 60px;
+}
+
+input, .btn {
+    padding: 5px;
+    border-radius: 6px;
+    outline: none;
+    line-height: 20px;
+}
+input {
+    border: 1px solid grey;
+}
+
+.button-3:hover {
+  background-color: #2c974b;
+}
+
+.button-3:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.box {
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url("https://rare-gallery.com/uploads/posts/503466-astronomy-dark.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.sphere {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: orangered;
+    z-index: 2;
+}
+
+.random-circles {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: orange;
+}
